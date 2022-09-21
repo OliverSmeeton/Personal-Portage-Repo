@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Metapackage for various common app-arch tools
+EAPI=8
+IUSE=7zip lrz rar
+KEYWORDS=amd64 arm64 ~ppc64 x86
+LICENSE=metapackage
+RDEPEND=7zip? ( app-arch/p7zip ) lrz? ( app-arch/lrzip ) rar? ( || ( app-arch/rar app-arch/unrar app-arch/unar ) )
+SLOT=0
+_md5_=0e49399bcf13071a467eabfedcc68444
